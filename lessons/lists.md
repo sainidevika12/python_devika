@@ -40,3 +40,9 @@ May_avg_temprature = statistics.mean(May_Temprature)
 print("The mean temprature of May is : {}".format(May_avg_temprature))
 
 ```
+
+# Homework Assignment
+ - Do a few excesices with list such age of family members, 
+ - Play with your own ideas of liast
+ - Read online about lists
+ - feel free to try examples shown online for lists
