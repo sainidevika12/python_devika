@@ -27,3 +27,9 @@ print(bucket_Three)
 #print(bucketTwo)
 #print(bucketOne)
 ```
+
+# Exercise doen by Devika
+
+```py
+
+```
