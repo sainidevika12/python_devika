@@ -1,14 +1,15 @@
-#Learnt on May 21, 2020
+# Learnt on May 21, 2020
 
-#Concept1 - variables
-#Concept - print - prebuilt function
-#Concept - Arithmatic operations
-#Concept - CamelCase
-#Concept - Varibale names cannot have spaces
-#Concept - assign values to bucket
-#Concept - Execution haapens in sequence from top to bottom
+## Concepts
+  - variables
+  - print - prebuilt function
+  - Arithmatic operations
+  - CamelCase
+  - Varibale names cannot have spaces
+  - assign values to bucket
+  - Execution haapens in sequence from top to bottom
 
-
+```
 bucketOne = 20
 bucketOne = "Bananna"
 bucketOne = 60
@@ -25,3 +26,4 @@ bucket_Three = number1 * number2
 print(bucket_Three)
 #print(bucketTwo)
 #print(bucketOne)
+```
