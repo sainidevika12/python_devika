@@ -9,7 +9,7 @@
   - assign values to bucket
   - Execution haapens in sequence from top to bottom
 
-```
+```py
 bucketOne = 20
 bucketOne = "Bananna"
 bucketOne = 60
