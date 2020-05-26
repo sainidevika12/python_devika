@@ -57,3 +57,15 @@ else:
   print("Sorry, verification failed. Please try later.")
 
 ```
+homework assignment
+```py
+#creating an automated curtain for window for specific time
+
+timeForDowning=13
+timeForUpraisal=18
+
+if timeForDowning == timeForUpraisal:
+  print("activate shade mode")
+else:
+  print("deactivate shade mode")
+  ```
