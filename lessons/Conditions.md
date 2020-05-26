@@ -68,4 +68,37 @@ if timeForDowning == timeForUpraisal:
   print("activate shade mode")
 else:
   print("deactivate shade mode")
+  
+  
+  # As discussed with Ben in class
+  currenTime = 20
+timeForDowning=13
+timeForUpraisal=18
+
+# if timeForDowning == timeForUpraisal:
+#   print("activate shade mode")
+# else:
+#   print("deactivate shade mode")
+
+# currenTime is greater or equal than timeForDowning and is less than timeForUpraisal -> put curtain 
+
+# currenTime is greather or equal than timeForUpraisal remove curtains
+
+# if currenTime >= timeForDowning and currenTime < timeForUpraisal:
+#   print("First Condition")
+#   print("activate shade mode")
+# elif currenTime >= timeForUpraisal:
+#   print("Second Condition")
+#   print("deactivate shade mode")
+# else:
+#   print("Third Condition")
+#   print("deactivate shade mode")
+
+
+if currenTime >= timeForDowning and currenTime < timeForUpraisal:
+  print("First Condition")
+  print("activate shade mode")
+else:
+  print("Third Condition")
+  print("deactivate shade mode")
   ```
