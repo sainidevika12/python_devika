@@ -70,3 +70,61 @@ else:
   print("deactivate shade mode")
   
 ```
+homework assignment
+```py
+guestName="Akshita"
+guestRoomNo=502
+
+# if guestName.title()== "Akshita" and guestRoomNo == 502:
+#    print("allow access to guest")
+# else:
+#     print("no access allowed")
+#     if guestName.title() > "akshita" and guestRoomNo > or < 502:
+#       print("allow acess to guest")
+
+
+salaryHigh=100000,90000,98000,87000,82000
+salaryMedium=50000,67000,73000,54000,62000
+salaryLow=20000,18000,32000,15000
+
+salaryHighToTest=93000
+if salaryHighToTest in salaryHigh
+ print("someone has thatnamt of pay in salary high group")
+ else:
+   print("not a part of the high salary ")
+   # guestName="Akshita"
+# guestRoomNo=502
+
+# if guestName.title()== "Akshita" and guestRoomNo == 502:
+#    print("allow access to guest")
+# else:
+#     print("no access allowed")
+#     if guestName.title() > "akshita" and guestRoomNo > or < 502:
+#       print("allow acess to guest")
+
+
+# 
+# alaram clock
+
+# presenTime=13
+# timeForMorningAlarm=7
+# timeForLunchBreakAlarm=13
+
+# if timeForMorningAlarm == presenTime:
+#    print("wake up,have a great day!")
+# else:
+#    if timeForLunchBreakAlarm == presenTime:
+#      print("its lunch,take a break!")
+else:
+  print("keep on working")
+# coffee machine
+
+CurrenTime=7
+TimeForCoffee=7
+TimeForCoffeeIsReady=8
+if TimeForCoffee == CurrenTime:
+   print("start making coffee")
+else:
+   if TimeForCoffeeIsReady == CurrenTime:
+     print("Your coffee is ready")
+```
