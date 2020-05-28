@@ -46,3 +46,17 @@ devikas_print("multiplicationValueFor86 is : {}".format(multiplicationValueFor86
 devikas_print("multiplicationValueFor56 is : {}".format(multiplicationValueFor56))
 
 ```
+
+# Practised the following in if Conditions
+
+```py
+totalTime = datetime.time(0,15,00)
+
+timeElapsed = datetime.time(0,16,00)
+
+
+if timeElapsed >= totalTime:
+  print("potatoes are baked")
+else:
+  print("Still baking.")
+```
