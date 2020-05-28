@@ -99,3 +99,43 @@ if salaryHighToTest <= max(salaryHigh) and salaryHighToTest >= min(salaryHigh):
 
 
 ```
+homework assignment
+```py
+#making a air fryer
+#to make potatoes a
+import datetime
+
+currenTempOfAirFryer=0
+preHeat=120
+seTemp=140
+turnHeatOff=160
+bakingTime=15
+
+
+if currenTempOfAirFryer >=  preHeat :
+ print("air fryer is pre-heated")
+else:
+  print("the air fryer is still pre heating")
+
+  print("")
+  print("")
+
+
+
+print("lets set time and temperature to bake potatoes")
+
+t=datetime.time(0,15,00)
+
+tZ=datetime.time(0,0,00)
+
+
+if seTemp == turnHeatOff:
+  print("heating off")
+
+else:
+    print("heating is on")
+
+
+ print("potatoes are baked")
+
+```
