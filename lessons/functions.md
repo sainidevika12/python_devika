@@ -60,3 +60,55 @@ if timeElapsed >= totalTime:
 else:
   print("Still baking.")
 ```
+homework for functions
+```py
+print("  ")
+import statistics
+
+
+def create_design(input):
+ print(" ")
+ print(input)
+
+# create_design("l-shape sofa")
+# create_design("4 seater dining table")
+# create_design("king size bed")
+
+def calculateTax (inputTotalSalary):
+  answer=0.25 * inputTotalSalary
+  return answer
+
+salaryOfEmployee1= calculateTax(5000)
+salaryOfEmployee2= calculateTax(9000)
+salaryOfEmployee3=calculateTax(2000)
+salaryOfEmployee4=calculateTax(4000)
+
+create_design("the total salary of employee1 after tax is : {}".format(salaryOfEmployee1))
+
+create_design("the total salary of employee1 after tax is : {}".format(salaryOfEmployee2))
+
+create_design("the total salary of employee1 after tax is : {}".format(salaryOfEmployee3))
+
+create_design("the total salary of employee1 after tax is : {}".format(salaryOfEmployee4))
+
+print(" ")
+
+total_salary_of_employee=[1250,2250,500,1000]
+total_salary_of_employee.sort(reverse= True)
+print("list in descending order")
+print(total_salary_of_employee)
+
+print(" ")
+
+total_salary_of_employee.sort()
+print("list in ascending order")
+print(total_salary_of_employee)
+
+def listingDateForToday (nameOfBrand):
+  answer=nameOfBrand
+  return answer
+
+listingDateForToday=nameOfBrand("amul")
+
+create_design("brand name added today is : {}".format(listingDateForToday))
+```
