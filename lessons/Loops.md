@@ -57,3 +57,53 @@ create_design("Printing the list of Brands as : {}".format(brandNamesList))
 
 
 ```
+
+homework
+```py
+import math
+
+def understandingPy(input):
+  print(" ")
+  print(input)
+
+understandingPy("print square root of 1={}".format(math.sqrt(1)))
+
+understandingPy("print square root of 2={}".format(math.sqrt(2)))
+
+print(" ")
+
+for n in [1,2,3,4,5]:
+
+ squareRoot = n**2
+
+understandingPy(n,"squared is",squareRoot)
+
+understandingPy("the loop is complete")
+
+
+# for n in [0,1,2,3,4,5]:
+#     square = n**2
+#     print(n,'squared is',square)
+# print('The for loop is complete!')
+
+listOfEvenNo=[2,4,6,8,10]
+num=[0]
+
+
+# for num in listOfEvenNo:
+#   if num % 2 == 0:
+
+
+
+listOfEvenNo = [num for num in listOfEvenNo if num % 2 == 0] 
+  
+print("Even numbers in the list: ",listOfEvenNo)
+
+
+# def addNewEvenNo(nameOfNewList):
+
+
+# understandingPy(listOfEvenNo)
+
+
+```
