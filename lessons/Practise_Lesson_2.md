@@ -107,3 +107,18 @@ print(listOfOddNo)
 
 print(listFromBoss)
 ```
+
+
+# Questions for problems
+
+1. Using a For loop in Python, print your name 10 times
+
+2. Using a For loop in Python, print all even numbers between 0 and 101
+
+3. Do the same to print odd numbers between 0 and 101
+
+4. Write a function in python that takes length and width of a rectangle as input parameters 
+and returns area of the rectangle.
+
+5. Write a function that takes the height in centimeters as input parameter and tells us if
+the person is tall enough to go on a ride in Disney Land
