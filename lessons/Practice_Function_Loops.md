@@ -43,3 +43,61 @@ for currentNumberToProcess in newListOfNumbers:
 print(listOfEvenNumbers)
 
 ```
+Homework update
+```py
+import math
+
+# listOfOddNo=[1,3,5,7,9,11,13,15]
+
+# def addToOddNoList(newNoToAdd):
+#  print(" ")
+#  print("the new no given is {}".format(newNoToAdd))
+#  if newNoToAdd  in listOfOddNo:
+#   print("ERROR:Number already exists.")
+#   return
+
+# #new number to add must be odd
+# if newNoToAdd % 1 == 0:
+#  listOfOddNo.append(newNoToAdd)
+
+# Else:
+#  print("ERROR: Odd numbers not allowed!")
+
+
+# print(listOfOddNo)
+# addToOddNoList(12)
+# print(listOfOddNo)
+
+
+#to print square roots in Loop
+def squareRoot(noToBeSquared):
+ print(" ")
+ print(noToBeSquared) 
+
+for noToBeSquared in [2,4,6,8,10,12]:
+    square= noToBeSquared ** 2
+    squareRoot("the square root is {}".format(square))
+
+if newNoToAdd % 1 ==0:
+  print("error its an odd number")
+  
+
+  
+elif statement
+
+total_mmarks=89
+marks_practical=28
+marks_theory=66
+
+if(marks_practical > 25):
+  print("score is eligible to pass the practical exam")
+  print("condition-1")
+
+elif(marks_theory < 65):
+  print("score is not eligible to pass the exam")
+  print("condition-2")
+
+else:
+  print("you have qualified this exam")
+  print("condition-3")
+```
