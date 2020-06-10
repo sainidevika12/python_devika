@@ -22,3 +22,15 @@ for number in mahatmaDevikaStreet:
   
   #print("The number is : {}".format(number))
   print("The result from the multiply function call is : {}".format(resultFromFunction))
+
+homework-
+marksInMaths=[25,27,21,18,16]
+
+def mathScoreOfClass(input=0):
+  totalMathScoreOfClass=2 * input
+  return totalMathScoreOfClass
+
+for marks in marksInMaths:
+   totalMathScoreOfClass=2 + marksInMaths
+
+print("the total marks of students in maths is = {}".format(totalMathScoreOfClass))
